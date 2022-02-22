@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../App.css";
 
 const FuncComp = ({ age, color }) => {
   const [counter, setCounter] = useState(0);
